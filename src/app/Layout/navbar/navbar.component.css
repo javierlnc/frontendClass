@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--blue-dark);
+  padding: 19px;
+  font-size: var(--mt);
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: var(--xbt);
+    color: var(--white);
+    margin-left: 100px;
+}
+.navbar-toggler{
+    color: white;
+    border: white solid 2px;
+      font-size: 32px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.nav-link{
+    color: var(--text-grey);
+    margin: 0 1.8rem;
+}
