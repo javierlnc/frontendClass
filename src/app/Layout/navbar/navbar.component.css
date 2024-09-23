@@ -21,3 +21,6 @@
     color: var(--text-grey);
     margin: 0 1.8rem;
 }
+.is-active{
+    color: white;
+}

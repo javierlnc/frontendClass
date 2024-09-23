@@ -1,0 +1,9 @@
+footer{
+    background-color: var(--blue-dark);
+    color: var(--white);
+    font-size: var(--mt);
+    padding: 71px 100px;
+}
+.footer-header{
+    font-size: 4.8rem;
+}

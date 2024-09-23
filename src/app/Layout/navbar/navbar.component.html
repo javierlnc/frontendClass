@@ -28,23 +28,23 @@
   <!-- Left links -->
   <ul class="navbar-nav ms-auto">
     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <a class="nav-link"  [routerLink]="['/home']" [routerLinkActive]="['is-active']">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link"  router-link="/about-us">About Us</a>
+      <a class="nav-link"  [routerLink]="['/about-us']" [routerLinkActive]="['is-active']">About Us</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contacto</a>
+      <a class="nav-link" [routerLink]="['/contact-us']" [routerLinkActive]="['is-active']">Contacto</a>
     </li>
     <li class="nav-item">
-      <button data-mdb-ripple-init type="button" class="btn btn-secondary me-3">
+      <a data-mdb-ripple-init type="button" class="btn btn-secondary me-3">
         Registro
-      </button>
+      </a>
     </li>
     <li class="nav-item">
-      <button data-mdb-ripple-init type="button" class="btn btn-primary me-3">
+      <a data-mdb-ripple-init type="button" [routerLink]="['/login']" class="btn btn-primary me-3">
         Login
-      </button>
+      </a>
     </li>
   </ul>
   <!-- Left links -->
