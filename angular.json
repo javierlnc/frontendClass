@@ -23,7 +23,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src"
+                "input": "public"
               }],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
