@@ -1,3 +1,32 @@
-.container{
+.hero{
     background-color: var(--blue-dark);
+    color: var(--white);
+}
+.hero-header{
+    font-size: 50px;
+    font-weight: 500;
+}
+.hero-copy{
+    font-size: var(--mt);
+}
+.featured-header{
+    font-size: 4.8rem;
+    color: var(--black);
+    font-weight: bold;
+    max-width: 630px;
+    
+}
+.featured-section{
+    background-color: var(--grey);
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.testimonios{
+    background-color: var(--blue-bell);
+    padding: 120px 20px;
+    font-size: var(--mt);
+}
+
+.testimonios-text{
+    font-size: var(--xbt);
 }

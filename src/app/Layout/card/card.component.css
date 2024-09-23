@@ -1,0 +1,14 @@
+.card{
+    padding: 60px 10px 10px 40px;
+    color: var(--black);
+    border: none;
+}
+.icon{
+    width: 32px;
+}
+.card-title{
+    font-size: var(--bt);
+}
+.card-text{
+    font-size: var(--mt);
+}

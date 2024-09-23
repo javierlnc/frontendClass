@@ -1,13 +1,86 @@
 <navbar></navbar>
-<div class="container "> 
-<div class=" hero row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-6">
-        
+<!-- hero -->
+<section class="hero">
+  <div class="contaier-fluid px-5 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-lg-6">
+        <img
+          src="/Hero.png"
+          alt="imagen"
+          class="d-block mx-lg-auto img-fluid"
+        />
+      </div>
+      <div class="col-10 col-sm-8 col-lg-6">
+        <h2 class="hero-header lh-1 mb-3">
+          Optimiza tu Soporte y Satisface a tus clientes
+        </h2>
+        <p class="hero-copy">
+          En ProHelpDesk, transformamos la gestión de tickets en una ventaja
+          competitiva. Nuestra plataforma no solo te ayuda a resolver problemas
+          rápidamente, sino que también mejora la experiencia de tus clientes,
+          convirtiendo cada interacción en una oportunidad para fidelizarlos.
+        </p>
+        <button class="btn btn-primary">Contáctanos Ahora</button>
+      </div>
     </div>
-    <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Optimiza tu Soporte y Satisface a tus clientes</h1>
-        <p> En ProHelpDesk, transformamos la gestión de tickets en una ventaja competitiva. Nuestra plataforma no solo te ayuda a resolver problemas rápidamente, sino que también mejora la experiencia de tus clientes, convirtiendo cada interacción en una oportunidad para fidelizarlos.</p>
+  </div>
+</section>
+<!-- /hero -->
+<!-- featured -->
+<section class="featured-section">
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="col-md-12 text-center mt-5 flex align-items-center">
+        <h2 class="featured-header m-auto">
+          Diseñado para ayudar al lider de soluciones.
+        </h2>
+      </div>
+      <div class="row g-5">
+        <div class="col-md-4">
+          <app-card
+            icon="/Icon.png"
+            title="Gestión centralizada de tickets"
+            description="Ofrece una plataforma unificada donde los usuarios pueden crear, asignar, y rastrear tickets en un solo lugar. Esta funcionalidad simplifica la supervisión de todas las solicitudes, asegurando que cada incidencia sea manejada de manera oportuna."
+          ></app-card>
+        </div>
+        <div class="col-md-4">
+          <app-card
+            icon="/Icon.png"
+            title="Automatización de Tareas Repetitivas"
+            description="ProHelpDesk puede automatizar tareas comunes, como la asignación de tickets a técnicos específicos o el envío de recordatorios y notificaciones. Esto no solo ahorra tiempo, sino que también reduce el riesgo de errores humanos y garantiza una mayor eficiencia operativa."
+          ></app-card>
+        </div>
+        <div class="col-md-4">
+          <app-card
+            icon="/Icon.png"
+            title="Análisis e Informes Detallados"
+            description="ProHelpDesk incluye herramientas avanzadas de análisis que permiten generar informes detallados sobre el rendimiento del equipo, tiempos de resolución, y tendencias de incidencias. Esto ayuda a identificar áreas de mejora y a tomar decisiones basadas en datos."
+          ></app-card>
+        </div>
+      </div>
     </div>
-</div>
-</div>
+  </div>
+</section>
+<!-- /featured -->
+<!-- Testimonios -->
+<section class="testimonios">
+  <div class="contaier-fluid px-5 py-5">
+    <div class="row align-items-center d-flex g-lg-5 py-5">
+      <div class="">
+        <h3 class="testimonios-text">Historias de Éxito con ProHelp</h3>
+        <p>
+          Lee cómo ProHelp ha optimizado la gestión de tickets y mejorado la
+          eficiencia en las empresas.
+        </p>
+      </div>
+      <div class="text-center text-lg-start">
+        <p class="testimonios-text">
+          “ProHelp ha transformado nuestra gestión de tickets. Es fácil de usar,
+          y la automatización de tareas nos ha ahorrado tiempo. lo que ha
+          mejorado nuestra eficiencia y la satisfacción de nuestros usuarios. .”
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 <app-footer></app-footer>
