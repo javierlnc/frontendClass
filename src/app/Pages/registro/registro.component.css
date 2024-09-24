@@ -1,0 +1,26 @@
+.registro{
+    background-color: var(--blue-bell);
+}
+.card{
+    background-color: var(--grey);
+}
+.row{
+    min-height: 600px;
+}
+.img {
+    background-image: url('https://images.pexels.com/photos/5467562/pexels-photo-5467562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+    width: 100%; 
+  }
+  .navbar-brand{
+    font-weight: bold;
+    font-size: var(--xbt);
+    color: var(--blue-dark);
+    margin-left: 100px;
+}
+input{
+    background: none;
+    width: 250px;
+}

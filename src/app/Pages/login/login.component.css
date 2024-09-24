@@ -1,19 +1,11 @@
-.login{
-    background: var(--blue-bell);
+.registro{
+    background-color: var(--blue-bell);
 }
 .card{
-    border-radius: 1rem;
     background-color: var(--grey);
 }
-input{
-    background: none;
-    max-width: 430px;
-}
-
-.imagen{
-    border-radius: 1rem 0 0 1rem;
-    object-fit: fill;
-    
+.row{
+    min-height: 600px;
 }
 .navbar-brand{
     font-weight: bold;
@@ -21,3 +13,14 @@ input{
     color: var(--blue-dark);
     margin-left: 100px;
 }
+.img {
+    background-image: url('https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+    width: 100%; 
+  }
+  input{
+    background: none;
+    width: 250px;
+  }
