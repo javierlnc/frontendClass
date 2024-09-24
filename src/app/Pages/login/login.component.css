@@ -1,0 +1,23 @@
+.login{
+    background: var(--blue-bell);
+}
+.card{
+    border-radius: 1rem;
+    background-color: var(--grey);
+}
+input{
+    background: none;
+    max-width: 430px;
+}
+
+.imagen{
+    border-radius: 1rem 0 0 1rem;
+    object-fit: fill;
+    
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: var(--xbt);
+    color: var(--blue-dark);
+    margin-left: 100px;
+}

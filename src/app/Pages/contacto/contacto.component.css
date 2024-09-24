@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* La altura mínima del contenedor será igual a la del viewport */
+}
+
+.contact-us {
+    flex: 1;
+    background-color: var(--blue-bell); /* Ocupa todo el espacio disponible entre el header y el footer */
+}
+
+.contact-form{
+    background-color: var(--grey);
+    padding: 50px;
+    font-size: var(--mt);
+}
+input, textarea{
+    background: none;
+}

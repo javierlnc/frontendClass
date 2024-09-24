@@ -1,18 +1,19 @@
 <navbar></navbar>
-<!-- hero -->
+
+<!-- Hero Section -->
 <section class="hero">
-  <div class="contaier-fluid px-5 py-5">
+  <div class="container-fluid px-5 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-lg-6">
         <img
           src="/Hero.png"
-          alt="imagen"
+          alt="Imagen de presentación de ProHelp"
           class="d-block mx-lg-auto img-fluid"
         />
       </div>
       <div class="col-10 col-sm-8 col-lg-6">
         <h2 class="hero-header lh-1 mb-3">
-          Optimiza tu Soporte y Satisface a tus clientes
+          Optimiza tu Soporte y Satisface a tus Clientes
         </h2>
         <p class="hero-copy">
           En ProHelpDesk, transformamos la gestión de tickets en una ventaja
@@ -20,29 +21,33 @@
           rápidamente, sino que también mejora la experiencia de tus clientes,
           convirtiendo cada interacción en una oportunidad para fidelizarlos.
         </p>
-        <button class="btn btn-primary">Contáctanos Ahora</button>
+        <button class="btn btn-primary btn-lg">Contáctanos Ahora</button>
       </div>
     </div>
   </div>
 </section>
-<!-- /hero -->
-<!-- featured -->
+<!-- /Hero Section -->
+
+<!-- Featured Section -->
 <section class="featured-section">
   <div class="container-fluid px-5">
     <div class="row">
-      <div class="col-md-12 text-center mt-5 flex align-items-center">
+      <div class="col-md-12 text-center mt-5">
         <h2 class="featured-header m-auto">
-          Diseñado para ayudar al lider de soluciones.
+          Diseñado para ayudar al líder de soluciones
         </h2>
       </div>
       <div class="row g-5">
+        <!-- Primera tarjeta -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
             title="Gestión centralizada de tickets"
-            description="Ofrece una plataforma unificada donde los usuarios pueden crear, asignar, y rastrear tickets en un solo lugar. Esta funcionalidad simplifica la supervisión de todas las solicitudes, asegurando que cada incidencia sea manejada de manera oportuna."
+            description="Ofrece una plataforma unificada donde los usuarios pueden crear, asignar y rastrear tickets en un solo lugar. Esta funcionalidad simplifica la supervisión de todas las solicitudes, asegurando que cada incidencia sea manejada de manera oportuna."
           ></app-card>
         </div>
+
+        <!-- Segunda tarjeta -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
@@ -50,22 +55,25 @@
             description="ProHelpDesk puede automatizar tareas comunes, como la asignación de tickets a técnicos específicos o el envío de recordatorios y notificaciones. Esto no solo ahorra tiempo, sino que también reduce el riesgo de errores humanos y garantiza una mayor eficiencia operativa."
           ></app-card>
         </div>
+
+        <!-- Tercera tarjeta -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
             title="Análisis e Informes Detallados"
-            description="ProHelpDesk incluye herramientas avanzadas de análisis que permiten generar informes detallados sobre el rendimiento del equipo, tiempos de resolución, y tendencias de incidencias. Esto ayuda a identificar áreas de mejora y a tomar decisiones basadas en datos."
+            description="ProHelpDesk incluye herramientas avanzadas de análisis que permiten generar informes detallados sobre el rendimiento del equipo, tiempos de resolución y tendencias de incidencias. Esto ayuda a identificar áreas de mejora y a tomar decisiones basadas en datos."
           ></app-card>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /featured -->
-<!-- Testimonios -->
+<!-- /Featured Section -->
+
+<!-- Testimonios Section -->
 <section class="testimonios">
-  <div class="contaier-fluid px-5 py-5">
-    <div class="row align-items-center d-flex g-lg-5 py-5">
+  <div class="container-fluid px-5 py-5">
+    <div class="row align-items-center g-lg-5 py-5">
       <div class="col-md-4">
         <h3 class="testimonios-text">Historias de Éxito con ProHelp</h3>
         <p>
@@ -73,30 +81,26 @@
           eficiencia en las empresas.
         </p>
       </div>
-      <div class=" col-md-8 text-center text-lg-start">
-             <div class="card-body">
-          <p class="card-text">"ProHelp ha transformado nuestra gestión de tickets. Es fácil de usar,
-            y la automatización de tareas nos ha ahorrado tiempo. lo que ha
-            mejorado nuestra eficiencia y la satisfacción de nuestros usuarios."</p>
-          <div class="d-flex align-items-center pt-2">
-              <img src="/Testimonial.png" alt="" class="mx-3">
-              <div>
-                  <h5 class="card-title fw-bold">Jane Doe</h5>
-                  <span class="text-secondary">CEO, Example Company</span>
-              </div>
-          </div>
-      </div>
-        <!-- <div class="row">
-          <p class="testimonios-text">
-            “ProHelp ha transformado nuestra gestión de tickets. Es fácil de usar,
-            y la automatización de tareas nos ha ahorrado tiempo. lo que ha
-            mejorado nuestra eficiencia y la satisfacción de nuestros usuarios. .”
+
+      <div class="col-md-8 text-center text-lg-start">
+        <div class="card-body">
+          <p class="card-text">
+            "ProHelp ha transformado nuestra gestión de tickets. Es fácil de usar,
+            y la automatización de tareas nos ha ahorrado tiempo, lo que ha
+            mejorado nuestra eficiencia y la satisfacción de nuestros usuarios."
           </p>
-        </div> -->
-      
-        
+          <div class="d-flex align-items-center pt-2">
+            <img src="/Testimonial.png" alt="Foto de Jane Doe" class="mx-3">
+            <div>
+              <h5 class="card-title fw-bold">Jane Doe</h5>
+              <span class="text-secondary">CEO, Example Company</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+<!-- /Testimonios Section -->
+
 <app-footer></app-footer>

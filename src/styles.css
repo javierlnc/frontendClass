@@ -44,3 +44,11 @@ html{
     font-size: 1.8rem;
     color: var(--white);
 }
+.btn-blue{
+    background:var(--blue-dark);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 1.8rem;
+    color: var(--white);
+}
