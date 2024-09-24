@@ -1,0 +1,20 @@
+.mision{
+    background-color: var(--blue-bell);
+    padding-top: 9rem;
+}
+.lead{
+    font-size: var(--mt);
+}
+h3{
+    font-size: var(--xbt);
+}
+.valores{
+    background-color: var(--grey) ;
+}
+.valores-header{
+    font-size: 4.8rem;
+    color: var(--black);
+    font-weight: bold;
+    max-width: 630px;
+    padding-top: 6rem ;
+}
