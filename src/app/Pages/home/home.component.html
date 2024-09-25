@@ -1,9 +1,10 @@
 <navbar></navbar>
 
-<!-- Hero Section -->
+<!-- Hero Section: Sección principal de la página con llamada a la acción -->
 <section class="hero">
   <div class="container-fluid px-5 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <!-- Imagen destacada al lado derecho en pantallas grandes -->
       <div class="col-lg-6">
         <img
           src="/Hero.png"
@@ -11,6 +12,8 @@
           class="d-block mx-lg-auto img-fluid"
         />
       </div>
+
+      <!-- Contenido del hero: encabezado, descripción y botón de llamada a la acción -->
       <div class="col-10 col-sm-8 col-lg-6">
         <h2 class="hero-header lh-1 mb-3">
           Optimiza tu Soporte y Satisface a tus Clientes
@@ -21,24 +24,27 @@
           rápidamente, sino que también mejora la experiencia de tus clientes,
           convirtiendo cada interacción en una oportunidad para fidelizarlos.
         </p>
-        <button class="btn btn-primary btn-lg">Contáctanos Ahora</button>
+        <button class="btn btn-primary btn-lg" [routerLink]="['/contact-us']">Contáctanos Ahora</button>
       </div>
     </div>
   </div>
 </section>
 <!-- /Hero Section -->
 
-<!-- Featured Section -->
+<!-- Featured Section: Sección destacada con tarjetas informativas -->
 <section class="featured-section">
   <div class="container-fluid px-5">
     <div class="row">
+      <!-- Encabezado de la sección destacada -->
       <div class="col-md-12 text-center mt-5">
         <h2 class="featured-header m-auto">
           Diseñado para ayudar al líder de soluciones
         </h2>
       </div>
+
+      <!-- Tarjetas informativas que destacan características de ProHelp -->
       <div class="row g-5">
-        <!-- Primera tarjeta -->
+        <!-- Primera tarjeta: Gestión centralizada de tickets -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
@@ -47,7 +53,7 @@
           ></app-card>
         </div>
 
-        <!-- Segunda tarjeta -->
+        <!-- Segunda tarjeta: Automatización de tareas repetitivas -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
@@ -56,7 +62,7 @@
           ></app-card>
         </div>
 
-        <!-- Tercera tarjeta -->
+        <!-- Tercera tarjeta: Análisis e informes detallados -->
         <div class="col-md-4">
           <app-card
             icon="/Icon.png"
@@ -70,10 +76,11 @@
 </section>
 <!-- /Featured Section -->
 
-<!-- Testimonios Section -->
+<!-- Testimonios Section: Sección de testimonios de clientes -->
 <section class="testimonios">
   <div class="container-fluid px-5 py-5">
     <div class="row align-items-center g-lg-5 py-5">
+      <!-- Texto de introducción a los testimonios -->
       <div class="col-md-4">
         <h3 class="testimonios-text">Historias de Éxito con ProHelp</h3>
         <p>
@@ -82,6 +89,7 @@
         </p>
       </div>
 
+      <!-- Testimonio destacado con imagen y texto -->
       <div class="col-md-8 text-center text-lg-start">
         <div class="card-body">
           <p class="card-text">
@@ -103,4 +111,5 @@
 </section>
 <!-- /Testimonios Section -->
 
+<!-- Pie de página -->
 <app-footer></app-footer>

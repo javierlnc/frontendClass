@@ -1,71 +1,78 @@
+<!-- Sección de registro que ocupa toda la altura de la ventana -->
 <section class="registro vh-100">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
+      <!-- Contenedor principal para centrar el formulario -->
       <div class="col col-xl-10">
         <div class="card">
           <div class="row">
-            <div
-              class="col-md-6 d-flex align-items-center justify-content-center"
-            >
+            <!-- Columna que contiene el formulario de registro -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
               <form>
+                <!-- Logo y nombre de la empresa -->
                 <div class="d-flex align-items-center mx-auto mb-3 pb-1">
-                  <a class="navbar-brand mx-0" href="#">
+                  <a class="navbar-brand mx-0" [routerLink]="['/home']">
                     <img src="/Logo.svg" class="me-2" height="40" alt="Logo" />
                     <small>ProHelp</small>
                   </a>
                 </div>
+
+                <!-- Campo de texto para el nombre del usuario -->
                 <div class="form-outline mb-4">
                   <label class="form-label" for="form2Example17">Name</label>
                   <input
-                    type="email"
-                    id="form2Example17"
-                    class="form-control form-control-lg"
-                  />
-                </div>
-                <div class="form-outline mb-4">
-                  <label class="form-label" for="form2Example17"
-                    >Email address</label
-                  >
-                  <input
-                    type="email"
+                    type="text"
                     id="form2Example17"
                     class="form-control form-control-lg"
                   />
                 </div>
 
+                <!-- Campo de entrada para la dirección de correo electrónico -->
                 <div class="form-outline mb-4">
-                  <label class="form-label" for="form2Example27"
-                    >Password</label
-                  >
+                  <label class="form-label" for="form2Example17">Email address</label>
                   <input
-                    type="password"
-                    id="form2Example27"
+                    type="email"
+                    id="form2Example17"
                     class="form-control form-control-lg"
-                  />
-                </div>
-                <div class="form-outline mb-4">
-                  <label class="form-label" for="form2Example27"
-                    >Repeat Password</label
-                  >
-                  <input
-                    type="password"
-                    id="form2Example27"
-                    class="form-control form-control-lg"
+                    required
                   />
                 </div>
 
+                <!-- Campo de entrada para la contraseña -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example27">Password</label>
+                  <input
+                    type="password"
+                    id="form2Example27"
+                    class="form-control form-control-lg"
+                    required
+                  />
+                </div>
+
+                <!-- Campo para repetir la contraseña -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form2Example27">Repeat Password</label>
+                  <input
+                    type="password"
+                    id="form2Example27"
+                    class="form-control form-control-lg"
+                    required
+                  />
+                </div>
+
+                <!-- Botón para registrar al usuario -->
                 <div class="pt-1 mb-4">
-                  <button class="btn btn-blue btn-lg btn-block" type="button">
+                  <button class="btn btn-blue btn-lg btn-block" type="submit">
                     Registrate
                   </button>
                 </div>
               </form>
             </div>
+
+            <!-- Columna que contiene la imagen de fondo (visible solo en pantallas medianas y grandes) -->
             <div class="col-md-6 d-none d-md-block">
-              <div
-                class="img"
-                
-              ></div>
+              <div class="img" >
+              </div>
             </div>
           </div>
         </div>
@@ -73,4 +80,6 @@
     </div>
   </div>
 </section>
+
+<!-- Componente de pie de página -->
 <app-footer></app-footer>
