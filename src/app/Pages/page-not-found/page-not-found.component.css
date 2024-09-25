@@ -1,0 +1,27 @@
+ .page-not-found{
+    font-family: 'Poppins', sans-serif; 
+    background-color: var(--blue-bell); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 300px;
+}
+
+.lead {
+    font-size: var(--mt);
+    color: var(--black); 
+}
+
+.form-control {
+    border-radius: 20px;
+}

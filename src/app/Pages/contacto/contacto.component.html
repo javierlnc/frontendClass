@@ -1,60 +1,78 @@
+<!-- Elemento contenedor que contiene la estructura completa de la página -->
 <div class="wrapper">
+    <!-- Componente de la barra de navegación -->
     <navbar></navbar>
+    
+    <!-- Sección de contacto con altura completa de la pantalla y contenido centrado -->
     <section class="contact-us vh-100 d-flex justify-content-center align-items-center">
-        
-        <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
-            <div class="col-md-12 text-center mt-5 flex align-items-center">
-                <h2 class="featured-header m-auto">
-                  Contacto
-                </h2>
-                <p class="lead mx-auto">Contáctanos hoy para descubrir cómo ProHelpDesk puede optimizar tu soporte y mejorar la eficiencia de tu empresa. Estamos aquí para ayudarte a dar el siguiente paso hacia una gestión más efectiva</p>
-              </div>
-            <form action="#" class="contact-form form-validate" novalidate="novalidate">
-                <div class="row">
-                    <div class="col-sm-6 mb-3">
-                        <div class="form-group">
-                            <label class="required-field" for="firstName">First Name</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Wendy">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 mb-3">
-                        <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Appleseed">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 mb-3">
-                        <div class="form-group">
-                            <label class="required-field" for="email">Email</label>
-                            <input type="text" class="form-control" id="email" name="email" placeholder="wendy.apple@seed.com">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 mb-3">
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="(021)-454-545">
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 mb-3">
-                        <div class="form-group">
-                            <label class="required-field" for="message">How can we help?</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hi there, I would like to....."></textarea>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 mb-3">
-                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-                    </div>
-
-                </div>
-            </form>
+      <!-- Contenedor del formulario de contacto con relleno y orden para pantallas grandes -->
+      <div class="col-lg-7 contact-form__wrapper p-5 order-lg-1">
+        <!-- Sección de encabezado con título y párrafo centrados -->
+        <div class="col-md-12 text-center mt-5 flex align-items-center">
+          <h2 class="featured-header m-auto">
+            <!-- Título: Contacto -->
+            Contacto
+          </h2>
+          <p class="lead mx-auto">
+            <!-- Descripción: Contáctanos hoy para descubrir cómo ProHelpDesk puede optimizar tu soporte y mejorar la eficiencia de tu empresa. Estamos aquí para ayudarte a dar el siguiente paso hacia una gestión más efectiva -->
+            Contáctanos hoy para descubrir cómo ProHelpDesk puede optimizar tu soporte y mejorar la eficiencia de tu empresa. Estamos aquí para ayudarte a dar el siguiente paso hacia una gestión más efectiva
+          </p>
         </div>
-        <!-- End Contact Form Wrapper -->
-
+        
+        <!-- Formulario de contacto con validación -->
+        <form action="#" class="contact-form form-validate" novalidate="novalidate">
+          <!-- Campos del formulario en una fila -->
+          <div class="row">
+            <!-- Campo de nombre -->
+            <div class="col-sm-6 mb-3">
+              <div class="form-group">
+                <label class="required-field" for="firstName">Nombre</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Wendy">
+              </div>
+            </div>
+            
+            <!-- Campo de apellido -->
+            <div class="col-sm-6 mb-3">
+              <div class="form-group">
+                <label for="lastName">Apellido</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Appleseed">
+              </div>
+            </div>
+            
+            <!-- Campo de correo electrónico -->
+            <div class="col-sm-6 mb-3">
+              <div class="form-group">
+                <label class="required-field" for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="wendy.apple@seed.com">
+              </div>
+            </div>
+            
+            <!-- Campo de número de teléfono -->
+            <div class="col-sm-6 mb-3">
+              <div class="form-group">
+                <label for="phone">Número de teléfono</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="(021)-454-545">
+              </div>
+            </div>
+            
+            <!-- Campo de mensaje -->
+            <div class="col-sm-12 mb-3">
+              <div class="form-group">
+                <label class="required-field" for="message">¿Cómo podemos ayudarte?</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hola, me gustaría..."></textarea>
+              </div>
+            </div>
+            
+            <!-- Botón de envío -->
+            <div class="col-sm-12 mb-3">
+              <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Fin del contenedor del formulario de contacto -->
     </section>
+    
+    <!-- Componente del pie de página de la aplicación -->
     <app-footer></app-footer>
-</div>
+  </div>
