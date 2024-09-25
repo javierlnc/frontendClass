@@ -7,9 +7,14 @@ import { Component, Input } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })
-export class CardComponent {
+export class CardComponent   
+ {
+  /*URL de la imagen del icono de la tarjeta.*/
   @Input() icon: string = '';
-  @Input() title: string = '';
-  @Input() description: string = '';
 
+  /*Título de la tarjeta.*/
+  @Input() title: string = '';
+
+  /*Descripción de la tarjeta.*/
+  @Input() description: string = '';
 }
