@@ -20,5 +20,5 @@ export const routes: Routes = [
   { path: '**', component: PageNotFoundComponent },
 
   // Ruta de redirección para la ruta raíz
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
